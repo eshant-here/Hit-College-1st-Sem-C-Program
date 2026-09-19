@@ -2,18 +2,25 @@
 #include<stdio.h>
 int main()
 {
-    float a,b,c;
+    float a, b, c;
     printf("Enter the numbers to be compared: ");
-    scanf("%f %f %f",&a,&b,&c);
-    if (a>b&&a>c)
+    scanf("%f %f %f", &a, &b, &c);
+
+    if (a == b && b == c)
     {
-        printf("Max no is: %f",a);
+        printf("All 3 numbers are equal");
     }
-    else if (b>c){
-        printf("Max no is: %f",b);
+    else if (a >= b && a >= c)
+    {
+        printf("Max no is: %f", a);
     }
-    else if (c>a&&c>b) {
-        printf("Max no is: %f",c);
+    else if (b >= a && b >= c)
+    {
+        printf("Max no is: %f", b);
+    }
+    else
+    {
+        printf("Max no is: %f", c);
     }
     return 0;
 }
