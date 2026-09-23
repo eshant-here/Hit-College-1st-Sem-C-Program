@@ -18,7 +18,7 @@ int main()
     }
     else if (c>d&&c>e)
     {
-        printf("Max no among these are:%f ",c);  
+        printf("Max no among these are:%f ",c);    /* code */
     }
     else if (d>e)
     {
