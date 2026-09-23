@@ -28,6 +28,6 @@ int main()
         case 7:
         printf("Its Saturday!");
         break;
-        deafault:printf("Pls Tri Again");
+        deafault:printf("Pls Try Again");
     }
 }
