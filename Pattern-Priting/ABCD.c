@@ -6,7 +6,7 @@ int main()
     scanf("%d", &n);
     for (int i = 1; i <= n; i++)
     {
-        for (char ch = 'A'; ch < 'A' + n; ch++)
+        for (char ch = 'A'; ch < 'A'+n; ch++)
         {
             printf("%c ", ch);
         }
